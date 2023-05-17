@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokemon Secret Santa Lookup</title>
+</head>
+<body>
+    <div id="lookupBox">
+        <h1>Pokemon Secret Santa</h1>
+        <form action="/processLookup" method="post">
+            <fieldset>
+                <legend>
+                    Pokemon Secret Santa Lookup
+                </legend>
+                <label>First Name: <input type="text" name="firstNameLookup" required></label>
+                <label>Last Name: <input type="text" name="lastNameLookup" required></label><br>
+            </fieldset>
+            <input type="reset">
+            <input type="submit"><br>
+        </form>
+        <br>
+        <a href="/">HOME</a>
+    </div>
+</body>
+</html>

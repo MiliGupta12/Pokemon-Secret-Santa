@@ -1,0 +1,38 @@
+body {
+    background-image: url('pokemonBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-width: 5px;
+    border-style: groove;
+    border-color: red;
+}
+#homeBox {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+#formBox {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+#lookupBox {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+#apiBox {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+#processInfoBox {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+#processLookupBox {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}

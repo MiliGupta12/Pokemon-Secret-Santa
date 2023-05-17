@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokemon Secret Santa Form</title>
+</head>
+<body>
+    <div id="formBox">
+        <h1>Pokemon Secret Santa</h1>
+        <form action="/processInfo" method="post">
+            <fieldset>
+                <legend>
+                    Pokemon Secret Santa Form
+                </legend>
+                <label>First Name: <input type="text" name="firstName" required></label>
+                <label>Last Name: <input type="text" name="lastName" required></label><br>
+                <label>Pokemon: <input type="text" name="pokemon" required></label>
+            </fieldset>
+            <input type="reset">
+            <input type="submit"><br>
+        </form>
+        <br>
+        <a href="/">HOME</a>
+    </div>
+</body>
+</html>

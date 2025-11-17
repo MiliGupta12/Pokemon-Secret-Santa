@@ -6,7 +6,7 @@ Mili Gupta (mgupta12)
 
 This Pokemon Secret Santa Server help people find other's favorite pokemon and what they look like when doing a Pokemon themed secret santa!
 
-Website link: pokemonsecretsanta.onrender.com/
+Website link: https://pokemonsecretsanta.onrender.com/
 
 API Link: https://pokeapi.co/
 
